@@ -15,6 +15,7 @@
 		AF8478EF2031E27900437663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8478ED2031E27900437663 /* LaunchScreen.storyboard */; };
 		AF8478F92031EECA00437663 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = AF8478F72031EECA00437663 /* background-music-aac.caf */; };
 		AF8478FA2031EECA00437663 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = AF8478F82031EECA00437663 /* pew-pew-lei.caf */; };
+		AF8478FC2032058000437663 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8478FB2032058000437663 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AF8478F02031E27900437663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8478F72031EECA00437663 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		AF8478F82031EECA00437663 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		AF8478FB2032058000437663 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AF8478F62031EECA00437663 /* Sounds */,
 				AF8478DE2031E27800437663 /* AppDelegate.swift */,
 				AF8478E42031E27800437663 /* GameScene.swift */,
+				AF8478FB2032058000437663 /* GameOverScene.swift */,
 				AF8478E62031E27800437663 /* GameViewController.swift */,
 				AF8478E82031E27900437663 /* Main.storyboard */,
 				AF8478EB2031E27900437663 /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 			files = (
 				AF8478E52031E27800437663 /* GameScene.swift in Sources */,
 				AF8478E72031E27900437663 /* GameViewController.swift in Sources */,
+				AF8478FC2032058000437663 /* GameOverScene.swift in Sources */,
 				AF8478DF2031E27800437663 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
